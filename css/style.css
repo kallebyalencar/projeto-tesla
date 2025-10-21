@@ -1,0 +1,101 @@
+body {
+    font-family: "Orbitron", sans-serif;
+}
+
+.main-header {
+    background-color: #212121;
+    color: #9A9999;
+    padding: 30px 0;
+}
+
+.main-nav ul li a{
+    color: #9A9999;
+    text-decoration: none;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.main-nav nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.main-nav nav ul li a:hover{
+    color: white;
+    transition: all 0.3s;
+}
+
+.main-header .container-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    background-image: url(../assets/banner-1.avif);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: white;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 16px;
+    color: white;
+    line-height: 2;
+    margin: 20px 0;
+    font-weight: 300;
+}
+
+.hero .container-flex {
+    flex-direction: column;
+    justify-content: space-between;
+    /* altura para respeitar o comando flex */
+    height: 70vh;
+}
+
+.brand {
+    text-align: center;
+}
+
+.brand img {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary {
+    background-color: #212121;
+    color: #9A9999;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 80px;
+    border-radius: 2px;
+}
+
+.active {
+    border-top: 3px solid #9A9999;
+}
+
+.text-hero {
+    width: 50%;
+}
