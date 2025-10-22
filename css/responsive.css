@@ -1,0 +1,135 @@
+/* 2xl */
+@media (max-width: 1536px) {}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container {
+        width: 90%;
+    }
+
+    .banner-car .photo-car img {
+        width: 100%;
+    }
+
+    .bottom-text .text-block {
+        width: 70%;
+    }
+
+    .grid-features {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+    .text-hero {
+        width: 100%;
+    }
+
+    .grid-cars {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bottom-text {
+        padding: 60px 20px;
+    }
+
+    .bottom-text .text-block {
+        width: 70%;
+    }
+
+    .menu-footer ul {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .banner-car .photo-car img {
+        width: 100%;
+    }
+
+    .grid-features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+/* md */
+@media (max-width: 768px) {
+    .menu-footer ul {
+        gap: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid-features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+   
+
+/* sm */
+@media (max-width: 640px) {
+    .brand img {
+        width: 240px;
+    }
+
+    .text-hero h1 {
+        font-size: 24px;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+    }
+
+    .grid-cars {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .full-banner {
+        padding: 60px 20px;
+    }
+
+    .btns-banner {
+        flex-direction: column;
+    }
+
+    .menu-footer ul {
+        gap: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid-features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-features h3 {
+        letter-spacing: 3px;
+    }
+
+    .contact-form .form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .form-buttons {
+        flex-direction: column;
+    }
+
+}
+
+/* xs */
+@media (max-width: 475px) {}

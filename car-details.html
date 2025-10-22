@@ -12,11 +12,11 @@
     <title>Tesla</title>
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header header-light">
         <div class="container container-flex">
             <div class="logo">
                 <figure>
-                    <img src="assets/logo-white.svg" alt="Logotipo da Tesla">
+                    <a href="index.html" target="_self"><img src="assets/logo-dark.svg" alt="Logotipo da Tesla"></a>
                 </figure>
             </div>
             <div class="main-nav">
@@ -43,6 +43,7 @@
                     </ul>
                 </nav>
             </div>
+
             <!--Menu Hambúrguer-->
             <div class="mobile-nav">
                 <div></div>
@@ -53,90 +54,112 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container container-flex">
-            <div class="brand">
+    <section class="banner-car">
+        <div class="container">
+            <h2>Your Choice</h2>
+            <div class="photo-car">
                 <figure>
-                    <img src="assets/logo-cybertruck.svg" alt="Logotipo Cybertruck">
+                    <img src="assets/car-1.avif" alt="Foto carro do modelo Tesla S">
                 </figure>
             </div>
-
-            <div class="text-hero">
-                <h1>a new dimension of technology</h1>
-                <p>Built for any adventure, Cybertruck has a durable exterior, spacious interior and technological capabilities so you can pack up your gear and hit the road.</p>
-                <div class="hero-btns">
-                    <button class="btn-primary active">Order Now</button>
-                    <button class="btn-primary">Demo Drive</button>
-                </div>
-            </div>
+            <h1>Model S</h1>
         </div>
     </section>
 
-    <main class="main-grid">
+    <main>
         <div class="container">
-            <h3>Vehicles</h3>
-            
-            <div class="grid-cars">
-                <article class="item-car">
+            <div class="grid-features">
+                <!--Item-->
+                <div class="item-feature">
                     <figure>
-                        <img src="assets/car-1.avif" alt="Tesla Model S">
+                        <img src="assets/feature-1.avif" alt="Imagem 1">
                     </figure>
-                    <h2 class="car-model">Model S</h2>
-                    <div class="links">
-                        <a href="car-details.html">View</a>
-                        <a href="#">Order</a>
-                    </div>
-                </article>
-                
-                <article class="item-car">
-                    <figure>
-                        <img src="assets/car-2.avif" alt="Tesla Model S">
-                    </figure>
-                    <h2 class="car-model">Model S</h2>
-                    <div class="links">
-                        <a href="#">View</a>
-                        <a href="#">Order</a>
-                    </div>
-                </article>
-                
-                <article class="item-car">
-                    <figure>
-                        <img src="assets/car-3.avif" alt="Tesla Model S">
-                    </figure>
-                    <h2 class="car-model">Model S</h2>
-                    <div class="links">
-                        <a href="#">View</a>
-                        <a href="#">Order</a>
-                    </div>
-                </article>
+                    <h3>Store It All</h3>
+                    <p>
+                        Load up your bike, luggage and more. A hands-free liftgate provides flexible storage while second-row seats fold flat for more space.
+                    </p>
+                </div>
+                <!--./Item-->
 
-                <article class="item-car">
+                <!--Item-->
+                <div class="item-feature">
                     <figure>
-                        <img src="assets/car-4.avif" alt="Tesla Model S">
+                        <img src="assets/feature-2.avif" alt="Imagem 1">
                     </figure>
-                    <h2 class="car-model">Model S</h2>
-                    <div class="links">
-                        <a href="#">View</a>
-                        <a href="#">Order</a>
-                    </div>
-                </article>
-            </div>
+                    <h3>Always Connected</h3>
+                    <p>
+                        Bluetooth keeps you connected. Second-row connectivity lets passengers connect Bluetooth headphones to immerse themselves—and spare the rest of the cabin.
+                    </p>
+                </div>
+                <!--./Item-->
+
+                <!--Item-->
+                <div class="item-feature">
+                    <figure>
+                        <img src="assets/feature-3.jpg" alt="Imagem 2">
+                    </figure>
+                    <h3>Autonomous</h3>
+                    <p>
+                        Set your destination and the Model S will handle the drive from start to finish, with Full Self-Driving (Supervised) offering advanced features for active guidance and assisted driving under your supervision.
+
+                    </p>
+                </div>
+                <!--./Item-->
         </div>
     </main>
 
-    <section style="background-image: url(assets/banner-2.avif);" class="full-banner">
-        <h4>Powerwall</h4>
-        <div class="btns-banner">
-            <button class="btn btn-blue">Order Now</button>
-            <button class="btn btn-white">Lear More</button>
+    <section class="banner">
+        <div class="container">
+            <figure>
+                <img src="assets/banner-model-s.avif" alt="Foto interna Model S">
+            </figure>
         </div>
     </section>
 
-    <section style="background-image: url(assets/banner-3.avif);" class="full-banner">
-        <h4>Powerwall</h4>
-        <div class="btns-banner">
-            <button class="btn btn-blue">Order Now</button>
-            <button class="btn btn-white">Lear More</button>
+    <section class="contact-form">
+        <div class="container">
+            <h4>Call us</h4>
+            <div class="form">
+
+                <div class="item-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div class="item-form">
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname">
+                </div>
+
+                <div class="item-form">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country">
+                </div>
+
+                <div class="item-form">
+                    <label for="city">City:</label>
+                    <input type="text" id="city">
+                </div>
+
+                <div class="item-form">
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone">
+                </div>
+
+                <div class="item-form">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email">
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="form-buttons">
+                <button class="btn">View Other Model</button>
+                <button class="btn btn-black">Order Now</button>
+            </div>
+
         </div>
     </section>
 
